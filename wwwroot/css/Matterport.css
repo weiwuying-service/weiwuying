@@ -34,6 +34,7 @@
     position: fixed;
     z-index: 1;
 }
+
 .matterport {
     width: 100%;
     height: 100%;
@@ -736,10 +737,11 @@
         padding-top: 55px;
     }
     .matterport_home {
-        width: 62.5px;
+       /* width: 62.5px;
         height: 25px;
         padding-left: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 20px;*/
+        display: none;
     }
     .matterport_home.normal {
         width: 26.5px;
@@ -747,9 +749,13 @@
         padding-left: 10px;
         padding-bottom: 25px;
     }
+    .footer {
+        display: none;
+    }
     .footer_container {
-        padding-right: 10px;
-        padding-bottom: 15px;
+        display: none;
+       /* padding-right: 10px;
+        padding-bottom: 15px;*/
     }
     .footer_pressed { 
         padding-right: 10px;
