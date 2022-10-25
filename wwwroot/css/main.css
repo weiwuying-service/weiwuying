@@ -26,6 +26,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    background-color: black;
 }
 .video {
     width: 100%;
@@ -514,7 +515,7 @@
     }
 
     .video {
-        /*object-fit: contain;*/
+        object-fit: contain;
     }
 
     .loading_img {
