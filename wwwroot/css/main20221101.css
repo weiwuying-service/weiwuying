@@ -321,10 +321,10 @@
     right: 0;
     z-index: 30;
     margin-right: 70px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     cursor: pointer;
     object-fit: contain;
-    width: 3%;
+    width: 4%;
 }
 
 .web_info {
